@@ -1,16 +1,76 @@
-# React + Vite
+# 🧠 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern quiz application built with **React** and powered entirely by **useReducer** for state management. The app provides an interactive quiz experience with a countdown timer, score tracking, and instant feedback.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* ✅ Built with React + Vite
+* ✅ State management using **useReducer**
+* ✅ Multiple-choice questions
+* ✅ Countdown timer for each quiz
+* ✅ Score calculation
+* ✅ Progress tracking
+* ✅ Restart quiz functionality
+* ✅ Clean and responsive UI
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS
+* React Hooks (`useReducer`, `useEffect`)
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Add screenshots of the application here.
+
+## 📂 Project Structure
+
+```text
+src/
+│── components/
+│── App.jsx
+│── index.css
+│── main.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-quiz-app.git
+```
+
+Navigate to the project:
+
+```bash
+cd react-quiz-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🎯 What I Learned
+
+This project helped me practice:
+
+* Managing complex state with **useReducer**
+* Dispatching actions between components
+* Using **useEffect** for timers and side effects
+* Building reusable React components
+* Organizing application state efficiently
+
+## 📄 License
+
+This project is open source and available under the MIT License.
